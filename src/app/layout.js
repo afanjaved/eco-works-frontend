@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Open_Sans } from 'next/font/google';
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 
 // Import Open Sans font with the desired weights
 const openSans = Open_Sans({
