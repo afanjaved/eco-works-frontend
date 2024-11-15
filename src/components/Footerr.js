@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <footer className="flex justify-center bg-black text-white py-4">
+        <footer className="flex mt-auto justify-center bg-black text-white py-4">
             <div className="">
                 <p>&copy; {new Date().getFullYear()} Eco Works. All Rights Reserved.</p>
             </div>
