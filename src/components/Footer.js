@@ -2,11 +2,11 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <footer className="flex bg-black text-white py-4">
+        <footer className="flex justify-center bg-black text-white py-4">
             <div className="">
                 <p>&copy; {new Date().getFullYear()} Eco Works. All Rights Reserved.</p>
             </div>
-            <div className="md:flex">
+            {/* <div className="md:flex">
           <ul className="flex space-x-6 ">
             <li>
               <Link href="/" className="hover:text-green-600 transition">
@@ -34,7 +34,7 @@ export default function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
         </footer>
     );
 }
